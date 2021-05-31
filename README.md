@@ -10,10 +10,10 @@ Utilizando o arquivo em anexo (professores.csv), crie as tabelas no hive e execu
 
 ### Pré-requisitos:
 
--Ao menos 4Gb RAM
--Vagrant - https://www.vagrantup.com/downloads 
--Virtual Box - https://www.virtualbox.org/wiki/Downloads ou Docker - https://docs.docker.com/engine/install/
--Git - https://git-scm.com/downloads
+- Ao menos 4Gb RAM
+- Vagrant - https://www.vagrantup.com/downloads 
+- Virtual Box - https://www.virtualbox.org/wiki/Downloads ou Docker - https://docs.docker.com/engine/install/
+- Git - https://git-scm.com/downloads
 
 ### Passos para iniciar a máquina:
 
