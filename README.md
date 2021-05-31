@@ -21,7 +21,8 @@ Utilizando o arquivo em anexo (professores.csv), crie as tabelas no hive e execu
 
 `git clone https://github.com/vinicius-schulz/hive_hadoop.git`
 
-2) Navegue até o diretório do projeto pelo linha de comando
+2) Navegue até o diretório do projeto pelo usando o terminal de sua preferência
+
 3) Digite o comando para provisionar a VM usando o vagrant: 
 
 `vagrant up --provider=virtualbox`
