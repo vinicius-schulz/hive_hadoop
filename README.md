@@ -116,4 +116,4 @@ Pelo linha de comando digite e aguarde o encerramento da VM
 `vagrant halt`
 
 ## Créditos
-Antonio Claudio Lopes 
+[Antonio Claudio Lopes](https://github.com/aclaraujo/vagrant-hadoop-hive-spark)
