@@ -32,7 +32,9 @@ ou (para máquina linux usando docker)
 
 4) Aguarde até o final do processo de provisionamento (deve demorar mais de 1h, dependendo da sua conexão com a internet)
 
-5) Editar o arquivo hosts (Windows - C:\Windows\System32\drivers\etc\hosts) ou (Linux - /etc/hosts) adicionando a linha "10.211.55.101 node1" (sem as aspas)
+5) Editar o arquivo hosts (Windows - C:\Windows\System32\drivers\etc\hosts) ou (Linux - /etc/hosts) adicionando a linha abaixo
+
+`10.211.55.101 node1`
 
 6) Para verificar se tudo está funcionando corretamente, utilize os links abaixo:
 
