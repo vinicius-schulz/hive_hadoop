@@ -41,7 +41,7 @@ ou (para máquina linux usando docker)
 - HDFS: (http://node1:50070/dfshealth.html)
 - Spark history server: (http://node1:18080)
 
-## Criando estrutura de diretórios e cópia de arquivos
+## Criando estrutura de diretórios e cópia de arquivo
 
 Conecte-se à VM usando o comando abaixo
 
@@ -92,11 +92,25 @@ STORED AS TEXTFILE
 LOCATION '/user/vagrant/professor/';
 ```
 
-## Execute a linha abaixo para agrupar os professores por lotação e gravar o resultado em um diretório
+## Execução de comandos no HIVE e visualização de resultados
+
+1) Execute o comando abaixo para agrupar os professores por lotação e armazenar o resultado no diretório '/user/vagrant/result/'
 
 ```sql
 INSERT OVERWRITE DIRECTORY '/user/vagrant/result/' SELECT lotacao, COUNT(*) FROM professor GROUP BY lotacao;
 ```
+
+2) Será criado um arquivo contendo os resultados no diretório '/user/vagrant/result/' com o nome 000000_0. Será possível acessar o mesmo por meio do link 
+
+[http://node1:50070/explorer.html#/user/vagrant/result](http://node1:50070/explorer.html#/user/vagrant/result)
+
+3) Alternativamente, já disponibilizei o arquivo gerado no diretório do projeto com o nome 'Resultados.txt'
+
+## Parar a máquina virtual
+
+Pelo linha de comando digite e aguarde o encerramento da VM
+
+`vagrant halt`
 
 ## Créditos
 Antonio Claudio Lopes 
