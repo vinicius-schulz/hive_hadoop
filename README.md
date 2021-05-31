@@ -34,11 +34,12 @@ ou (para máquina linux usando docker)
 
 5) Editar o arquivo hosts (Windows - C:\Windows\System32\drivers\etc\hosts) ou (Linux - /etc/hosts) adicionando a linha "10.211.55.101 node1" (sem as aspas)
 
-Para verificar se tudo esta funcionando corretamente, utilize os links abaixo:
-YARN resource manager: (http://node1:8088)
-HBase: (http://node1:16010)
-HDFS: (http://node1:50070/dfshealth.html)
-Spark history server: (http://node1:18080)
+6) Para verificar se tudo está funcionando corretamente, utilize os links abaixo:
+
+- YARN resource manager: (http://node1:8088)
+- HBase: (http://node1:16010)
+- HDFS: (http://node1:50070/dfshealth.html)
+- Spark history server: (http://node1:18080)
 
 ## Criando estrutura de diretórios e cópia de arquivos
 
