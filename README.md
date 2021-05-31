@@ -17,10 +17,21 @@ Utilizando o arquivo em anexo (professores.csv), crie as tabelas no hive e execu
 
 ### Passos para iniciar a máquina:
 
-1) Abra o prompt de comando (se o SO do host for windows, abra como administrador) e digite: git clone https://github.com/vinicius-schulz/hive_hadoop.git
-2) Digite "cd vagrant-hadoop-hive-spark"
-3) Digite: "vagrant up --provider=virtualbox" ou "vagrant up --provider=docker" (para máquina linux usando docker)
+1) Abra o prompt de comando (se o SO do host for windows, abra como administrador) e digite: 
+
+`git clone https://github.com/vinicius-schulz/hive_hadoop.git`
+
+2) Navegue até o diretório do projeto pelo linha de comando
+3) Digite o comando para provisionar a VM usando o vagrant: 
+
+`vagrant up --provider=virtualbox`
+
+ou (para máquina linux usando docker)
+
+`vagrant up --provider=docker` 
+
 4) Aguarde até o final do processo de provisionamento (deve demorar mais de 1h, dependendo da sua conexão com a internet)
+
 5) Editar o arquivo hosts (Windows - C:\Windows\System32\drivers\etc\hosts) ou (Linux - /etc/hosts) adicionando a linha "10.211.55.101 node1" (sem as aspas)
 
 Para verificar se tudo esta funcionando corretamente, utilize os links abaixo:
