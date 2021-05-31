@@ -85,3 +85,6 @@ LOCATION '/user/vagrant/professor/';
 ```sql
 INSERT OVERWRITE DIRECTORY '/user/vagrant/result/' SELECT lotacao, COUNT(*) FROM professor GROUP BY lotacao;
 ```
+
+## Créditos
+Antonio Claudio Lopes 
