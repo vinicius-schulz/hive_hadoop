@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	    override.vm.box = "ubuntu/xenial64"
 	    v.gui = false
 	    v.name = "node1"
-            v.customize ['modifyvm', :id, '--memory', '8192']
+            v.customize ['modifyvm', :id, '--memory', '4096']
     end
     config.vm.network "forwarded_port", guest: 8080, host: 8080
     config.vm.network "forwarded_port", guest: 8088, host: 8088
